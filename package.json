@@ -1,0 +1,19 @@
+{
+  "name": "minimal-typescript-starter",
+  "version": "1.0.0",
+  "description": "Absolute minimal starting package for writing TypeScript with node/npm.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "debug": "node --inspect -r ts-node/register src/index.ts"
+  },
+  "author": "brent.rager@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.0.9",
+    "ts-node": "^6.0.3",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {}
+}
