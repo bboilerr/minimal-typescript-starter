@@ -4,6 +4,10 @@ There are lots of typescript starter packages, this one is about as minimal as y
 
 ## Running and Debugging
 
+### ```npm run dev```
+
+Runs ```npm start``` in nodemon, restarting whenever a file in src/ is updated.
+
 ### ```npm start```
 
 Runs src/index.ts with [ts-node](https://www.npmjs.com/package/ts-node).

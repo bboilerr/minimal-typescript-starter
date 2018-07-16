@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/index.ts",
-    "debug": "node --inspect -r ts-node/register src/index.ts"
+    "debug": "node --inspect -r ts-node/register src/index.ts",
+    "dev": "node ./node_modules/nodemon/bin/nodemon.js"
   },
   "author": "brent.rager@gmail.com",
   "license": "MIT",
@@ -15,5 +16,7 @@
     "ts-node": "^6.0.3",
     "typescript": "^2.8.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^1.18.2"
+  }
 }
